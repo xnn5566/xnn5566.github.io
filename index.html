@@ -18,8 +18,9 @@ layout: default
 {% for post in site.posts %}
   <div class="list-item">
     <h2 class="list-post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       <time>{{ post.date | date:"%Y-%m-%d" }}</time>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
     </h2>
     <!-- <div class="list-post-date">
 

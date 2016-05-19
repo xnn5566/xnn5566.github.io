@@ -308,16 +308,16 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2rem;
 
     a {
-      color: #aaa;
+      color: #22bbbb;
       font-weight: 300;
-      text-transform: lowercase;
+    //   text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
 
       &:hover,
       &:focus {
-        color: #333;
+        color: #aaa;
         text-decoration: none;
       }
 
@@ -359,8 +359,8 @@ tbody tr:nth-child(odd) th {
       }
     }
     time {
-      margin-left: 1rem;
-      font-size: .75rem;
+      margin-right: 1rem;
+      font-size: 1rem;
       text-transform: uppercase;
     //   color: #888;
       font-weight: normal;

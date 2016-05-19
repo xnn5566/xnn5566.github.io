@@ -15,9 +15,9 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 # Navigation
-# nav:
-#   - name:           "About"
-#     href:           "about"
+nav:
+  - name:           "Github"
+    href:           "https://github.com/xnn5566"
 
 # Sass
 sass:
