@@ -348,7 +348,7 @@ tbody tr:nth-child(odd) th {
 
 .list {
   &-post-title {
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
 
     a {
       color: #333;
@@ -358,11 +358,13 @@ tbody tr:nth-child(odd) th {
         text-decoration: none;
       }
     }
-  }
-  &-post-date {
-    margin-bottom: 1rem;
-    font-size: .75rem;
-    text-transform: uppercase;
+    time {
+      margin-left: 1rem;
+      font-size: .75rem;
+      text-transform: uppercase;
+    //   color: #888;
+      font-weight: normal;
+    }
   }
 }
 
