@@ -1,15 +1,13 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
 # Basic
 name:               "Xuyanan"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//xnn5566.github.io"
+url:                "//xuyanan.cn"
 author:             "xuyanan"
+
 # URL
 baseurl:            ""
+
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
