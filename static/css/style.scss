@@ -67,7 +67,7 @@ h4, h5, h6 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 .5rem;
 }
 
 ul, ol, dl {
@@ -129,7 +129,7 @@ hr {
   border: 0;
   border-top: .5px solid #eee;
   border-bottom: .5px solid #eee;
-  margin: 1.5rem auto;
+  margin: .75rem auto;
 }
 
 strong {
@@ -150,8 +150,8 @@ abbr[title] {
 }
 
 blockquote {
-  padding: 0 0 0 1.5rem;
-  margin: 0 2rem 1rem 0;
+  padding: 0 0 0 1rem;
+  margin: 0 1rem .5rem 0;
   color: #999;
   border-left: .5rem solid #e5e5e5;
 
@@ -340,9 +340,14 @@ tbody tr:nth-child(odd) th {
     margin-bottom: .25rem;
   }
   &-date {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: .75rem;
     text-transform: uppercase;
+  }
+  &-content {
+    border-top: 2px dotted #ccc;
+    padding: 2rem .75rem;
+    font-size: .75rem;
   }
 }
 
