@@ -302,6 +302,10 @@ tbody tr:nth-child(odd) th {
         text-decoration: none;
       }
     }
+
+    span {
+      color: #ddd;
+    }
   }
 
   .masthead-nav {
@@ -346,7 +350,7 @@ tbody tr:nth-child(odd) th {
   }
   &-content {
     border-top: 2px dotted #ccc;
-    padding: 2rem .75rem;
+    padding: 2rem 0 2rem .75rem;
     font-size: .75rem;
   }
 }
