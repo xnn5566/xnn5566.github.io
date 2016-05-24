@@ -1,5 +1,5 @@
 ---
-title: Pmt-踩过的坑(1)-child_process
+title: Pmt 踩过的坑(1) child_process
 ---
 
 ### 场景
@@ -36,4 +36,3 @@ process.send('success');
 2. **stdio: ['ipc', 'ignore', 'ignore']**。在父子进程之间创建一个IPC通道，child.send方法只有在开启IPC通道时才可以激活。默认情况下，子进程会一同附着在父进程所附着的终端上，将 stdout 与 stderr 设为 ignore 是为了把子进程的输出指向/dev/null，不然就算父进程退出了，子进程还是附着在终端上，依旧无法后台运行。
 3. **child.unref()**。默认情况下，父进程会等待子进程的退出自己才会正常退出，child.unref()会将子进程从父进程的循环引用计数中移除，使得父进程不必等待子进程退出后自己才能退出。
 4. **child.disconnect**。用来关闭之前开启的IPC通道，使得父进程可以自己安全退出。
-
